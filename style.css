@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2rem;
+  border-right: 2px solid #333;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
